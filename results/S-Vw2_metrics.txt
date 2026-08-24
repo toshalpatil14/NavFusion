@@ -1,0 +1,12 @@
+Speed CNN V1 - Unseen Drive
+==============================
+Drive: S-Vw2.csv
+Samples: 52664
+
+MAE: 4.152296 km/h
+RMSE: 5.265113 km/h
+R2: 0.512470
+
+Mean error: -2.728249 km/h
+Std error: 4.503119 km/h
+Max error: 21.009087 km/h
