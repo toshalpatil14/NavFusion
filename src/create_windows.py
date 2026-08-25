@@ -9,14 +9,13 @@ import joblib
 # ============================================================
 
 DATA_FILE = Path(
-    r"D:\IDR-AI\data\raw\IO-VNBD"
-    r"\Synchronised V abd S datasets"
+    r"F:\IO-VNBD-DATA\Synchronised V abd S datasets"
     r"\Uncategorised IOVNB Dataset"
     r"\S-Dataset"
     r"\S-Vw4.csv"
 )
 
-OUTPUT_DIR = Path(r"D:\IDR-AI\data\processed")
+OUTPUT_DIR = Path(r"F:\NavFusion\data\processed")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 10 Hz × 5 seconds
@@ -31,9 +30,9 @@ STRIDE = 10
 # ============================================================
 
 FEATURE_COLUMNS = [
-    "ACCELEROMETER X (m/s²)",
-    "ACCELEROMETER Y (m/s²)",
-    "ACCELEROMETER Z (m/s²)",
+	"ACCELEROMETER X (m/s²)",
+	"ACCELEROMETER Y (m/s²)",
+	"ACCELEROMETER Z (m/s²)",
 
     "GYROSCOPE X (rad/s)",
     "GYROSCOPE Y (rad/s)",

@@ -19,20 +19,21 @@ import matplotlib.pyplot as plt
 # ============================================================
 
 DATA_FILE = Path(
-    r"D:\IDR-AI\data\raw\IO-VNBD\Synchronised V abd S datasets"
+    r"F:\IO-VNBD-DATA\Synchronised V abd S datasets"
     r"\Uncategorised IOVNB Dataset\S-Dataset\S-Vw2.csv"
 )
 
 MODEL_FILE = Path(
-    r"D:\IDR-AI\models\speed_cnn_v1.pt"
+    r"F:\NavFusion\models\speed_cnn_v1.pt"
 )
 
 SCALER_FILE = Path(
-    r"D:\IDR-AI\data\processed\imu_scaler.pkl"
+    r"F:\NavFusion\data\processed\imu_scaler.pkl"
 )
 
+
 RESULT_DIR = Path(
-    r"D:\IDR-AI\results"
+    r"F:\NavFusion\results"
 )
 
 RESULT_DIR.mkdir(
@@ -49,9 +50,11 @@ FEATURES = [
     "ACCELEROMETER X (m/s²)",
     "ACCELEROMETER Y (m/s²)",
     "ACCELEROMETER Z (m/s²)",
+
     "GYROSCOPE X (rad/s)",
     "GYROSCOPE Y (rad/s)",
     "GYROSCOPE Z (rad/s)",
+
     "GRAVITY X (m/s²)",
     "GRAVITY Y (m/s²)",
     "GRAVITY Z (m/s²)"

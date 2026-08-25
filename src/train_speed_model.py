@@ -8,8 +8,8 @@ from pathlib import Path
 # CONFIG
 # ============================================================
 
-DATA_DIR = Path(r"D:\IDR-AI\data\processed")
-MODEL_DIR = Path(r"D:\IDR-AI\models")
+DATA_DIR = Path(r"F:\NavFusion\data\processed")
+MODEL_DIR = Path(r"F:\NavFusion\models")
 
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 

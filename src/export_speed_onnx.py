@@ -11,13 +11,12 @@ from pathlib import Path
 # ============================================================
 
 MODEL_FILE = Path(
-    r"D:\IDR-AI\models\speed_cnn_v1.pt"
+    r"F:\NavFusion\models\speed_cnn_v1.pt"
 )
 
-OUTPUT_FILE = Path(
-    r"D:\IDR-AI\models\speed_cnn_v1.onnx"
+ONNX_FILE = Path(
+    r"F:\NavFusion\models\speed_cnn_v1.onnx"
 )
-
 
 # ============================================================
 # DEVICE
@@ -184,7 +183,7 @@ print("\nExporting ONNX model...")
 torch.onnx.export(
     model,
     dummy_input,
-    OUTPUT_FILE,
+    ONNX_FILE,
     export_params=True,
     opset_version=18,
     do_constant_folding=True,
@@ -205,7 +204,7 @@ print(
 )
 
 print(
-    OUTPUT_FILE
+    ONNX_FILE
 )
 
 
@@ -216,7 +215,7 @@ print(
 print("\nChecking ONNX model...")
 
 onnx_model = onnx.load(
-    OUTPUT_FILE
+    ONNX_FILE
 )
 
 onnx.checker.check_model(
@@ -235,7 +234,7 @@ print(
 print("\nRunning ONNX Runtime...")
 
 session = ort.InferenceSession(
-    str(OUTPUT_FILE),
+    str(ONNX_FILE),
     providers=[
         "CPUExecutionProvider"
     ]

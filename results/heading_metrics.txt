@@ -1,0 +1,19 @@
+HEADING & MOTION MODULE V1
+========================================
+
+Samples: 126526
+
+Heading
+Min : 0.00
+Max : 360.00
+Mean: 157.38
+
+Yaw Rate
+Mean: 0.0008
+Std : 0.2235
+
+Motion Distribution
+STRAIGHT: 57564 (45.50%)
+LEFT: 31228 (24.68%)
+RIGHT: 30868 (24.40%)
+STOP: 6866 (5.43%)
