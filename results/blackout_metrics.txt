@@ -1,0 +1,16 @@
+GNSS BLACKOUT EVALUATION
+
+Blackout start: 5067310 ms
+Blackout end: 6332010 ms
+
+Matched samples: 12507
+
+GPS distance: 36532.58 m
+DR distance: 9423.98 m
+
+Mean position error: 14195.94 m
+Median position error: 14449.81 m
+RMSE position error: 16276.67 m
+90th percentile error: 25311.67 m
+Maximum position error: 27754.44 m
+Final position error: 27751.94 m
