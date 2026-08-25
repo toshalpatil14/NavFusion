@@ -1,0 +1,52 @@
+NAVIGATION EVALUATION
+============================================================
+
+OVERALL
+Matched samples: 125508
+GPS distance: 212873.18 m
+DR V2 distance: 58008.95 m
+Fusion V1 distance: 58008.95 m
+
+DR V2 metrics:
+samples: 125508
+mean_error_m: 50647.28644572378
+median_error_m: 64024.90021845163
+rmse_m: 61480.24326475058
+p90_error_m: 86752.39462992936
+max_error_m: 89347.26183126458
+final_error_m: 82356.0012162676
+
+Fusion V1 metrics:
+samples: 125508
+mean_error_m: 50647.28644572378
+median_error_m: 64024.90021845163
+rmse_m: 61480.24326475058
+p90_error_m: 86752.39462992936
+max_error_m: 89347.26183126458
+final_error_m: 82356.0012162676
+
+BLACKOUT
+Blackout start: 5067310 ms
+Blackout end: 6332010 ms
+Blackout samples: 12507
+GPS blackout distance: 36573.86 m
+DR V2 blackout distance: 9423.98 m
+Fusion V1 blackout distance: 9423.98 m
+
+DR V2 blackout metrics:
+samples: 12507
+mean_error_m: 14216.640373633674
+median_error_m: 14469.770084142343
+rmse_m: 16301.433856852367
+p90_error_m: 25351.804082176823
+max_error_m: 27799.81168034235
+final_error_m: 27797.312741217018
+
+Fusion V1 blackout metrics:
+samples: 12507
+mean_error_m: 14216.640373633674
+median_error_m: 14469.770084142343
+rmse_m: 16301.433856852367
+p90_error_m: 25351.804082176823
+max_error_m: 27799.81168034235
+final_error_m: 27797.312741217018
