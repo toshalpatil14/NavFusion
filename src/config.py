@@ -1,0 +1,7 @@
+"""Navigation constants for the current AI-speed pipeline."""
+
+EARTH_RADIUS_M = 6_371_000.0
+PROCESS_NOISE_Q = 5.0
+MEASUREMENT_NOISE_R = 1.0
+MODE_GNSS_INS = "GNSS_INS"
+MODE_DEAD_RECKONING = "DEAD_RECKONING"
