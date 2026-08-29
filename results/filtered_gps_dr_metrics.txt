@@ -1,0 +1,12 @@
+FILTERED GPS vs DEAD RECKONING
+===============================
+Matched samples: 12648
+GPS samples rejected: 1339
+Filtered GPS distance: 212873.1837 m
+DR distance: 58011.1634 m
+Mean position error: 50601.0935 m
+Median position error: 63786.0546 m
+RMSE position error: 61432.0132 m
+90th percentile error: 86711.8529 m
+Maximum position error: 89319.7810 m
+Final position error: 82378.9120 m

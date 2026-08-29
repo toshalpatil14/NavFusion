@@ -26,8 +26,8 @@ OUTPUT_FILE = (
 # ============================================================
 
 # Use a middle portion of the drive for the first controlled test.
+BLACKOUT_ROWS = 200
 BLACKOUT_START_FRACTION = 0.40
-BLACKOUT_END_FRACTION = 0.50
 
 
 # ============================================================
@@ -53,9 +53,10 @@ start_index = int(
     n * BLACKOUT_START_FRACTION
 )
 
-end_index = int(
-    n * BLACKOUT_END_FRACTION
-)
+end_index = start_index + BLACKOUT_ROWS
+
+if end_index > n:
+    raise ValueError("Blackout extends beyond navigation timeline.")
 
 df["gnss_available"] = True
 

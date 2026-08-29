@@ -1,0 +1,39 @@
+S-Vw4 EKF POSITION EVALUATION
+======================================================================
+
+RAW S-Vw4 REFERENCE
+         period  samples  mean_error_m  median_error_m   rmse_m  p95_error_m  max_error_m
+BEFORE BLACKOUT    50590       15.1978          4.3186  37.0947      83.5678     292.1360
+DURING BLACKOUT      200      225.9674        186.7179 266.5256     412.5779     416.7132
+ AFTER BLACKOUT    75687       13.8286          4.0786  34.3772      74.9085     268.1779
+        OVERALL   126477       14.7117          4.1957  37.0127      80.1601     416.7132
+
+CLEANED S-Vw4 REFERENCE
+         period  samples  mean_error_m  median_error_m   rmse_m  p95_error_m  max_error_m
+BEFORE BLACKOUT    50590       14.3105          4.3186  33.7363      78.2477     264.7831
+DURING BLACKOUT      200      224.7761        186.3475 265.3808     412.1703     416.3113
+ AFTER BLACKOUT    75687       13.0396          4.0786  31.2686      70.6277     243.0626
+        OVERALL   126477       13.8828          4.1957  33.9368      74.9666     416.3113
+
+GPS JUMP DETECTION
+Threshold: 50.00 m
+Detected jumps: 1210
+
+BLACKOUT DIAGNOSTIC
+rows=200
+duration_s=19.899
+EKF dx=-0.237398
+EKF dy=151.618854
+EKF distance=151.619039
+speed mean=7.595313
+speed first=6.131476
+speed last=8.321335
+direction first=349.073520
+direction last=359.945653
+
+GPS TIMESTAMP ALIGNMENT
+Maximum GPS timestamp difference: 0 ms
+
+EKF PARAMETERS
+Q=[5.0]
+R=[1.0]

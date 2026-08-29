@@ -1,0 +1,12 @@
+CLEAN GPS vs DEAD RECKONING
+===========================
+Matched samples: 12648
+GPS jumps removed: 969
+GPS trajectory length: 212873.1837 m
+DR trajectory length: 58011.1634 m
+Mean position error: 50601.1056 m
+Median position error: 63786.0546 m
+RMSE position error: 61431.9999 m
+90th percentile error: 86711.8529 m
+Maximum position error: 89319.7810 m
+Final position error: 82378.9120 m

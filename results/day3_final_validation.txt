@@ -1,0 +1,16 @@
+AI: rows=12648, dt_s min/median/max=0.975/1.000/1.024
+navigation: rows=126477, dt_s min/median/max=0.076/0.100/0.124
+INS: rows=126477, dt_s min/median/max=0.076/0.100/0.124
+EKF: rows=126477, dt_s min/median/max=0.076/0.100/0.124
+AI timestamps: predictions=12648, first=8309, last=12655310, unique=True
+AI/S-Vw4 speed units: matched=12648/12648, MAE_mps=0.6983, RMSE_mps=0.9008
+blackout: samples=200, first-to-last_s=19.899
+EKF Q=[5.0], R=[1.0]
+EKF blackout samples=200
+EKF AI timestamp matches: 12648/12648
+EKF ai_speed_mps: finite AI rows=12648/12648
+EKF speed_confidence: finite AI rows=12648/12648
+EKF selected_speed_mps: finite AI rows=12648/12648
+EKF speed_error_mps: finite AI rows=12648/12648
+EKF corrected speed: NaN rows=113829, AI fallback rows=0
+VALIDATION: PASS

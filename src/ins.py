@@ -9,8 +9,12 @@ rate a second time; yaw rate remains in the trajectory for diagnostics.
 import numpy as np
 import pandas as pd
 
-
-REQUIRED_INPUT_COLUMNS = ["timestamp_ms", "ai_speed_mps", "heading_deg", "yaw_rate"]
+REQUIRED_INPUT_COLUMNS = [
+    "timestamp_ms",
+    "ai_speed_mps",
+    "heading_deg",
+    "yaw_rate",
+]
 
 
 def _validate_input(frame: pd.DataFrame) -> pd.DataFrame:

@@ -1,0 +1,22 @@
+﻿AI SPEED OUTPUT REPRODUCIBILITY MANIFEST
+========================================
+
+source_file=D:\IDR-AI\data\raw\IO-VNBD\Synchronised V abd S datasets\Uncategorised IOVNB Dataset\S-Dataset\S-Vw4.csv
+scaler_file=D:\IDR-AI\data\processed\imu_scaler.pkl
+model_file=D:\IDR-AI\models\speed_cnn_v1.pt
+output_file=D:\IDR-AI\results\ai_speed_output.csv
+
+predictions=12648
+first_timestamp_ms=8309
+last_timestamp_ms=12655310
+timestamp_match_rate=100.00%
+
+ai_speed_mean_mps=4.5867
+ai_speed_min_mps=0.3880
+ai_speed_max_mps=9.9832
+
+confidence_mean=0.7234
+confidence_min=0.4513
+confidence_max=0.9729
+
+confidence_note=Uncertainty-derived proxy from MC dropout; not a calibrated probability.
